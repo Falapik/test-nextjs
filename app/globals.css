@@ -9,7 +9,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
+    --background: #000000;
     --foreground: #ededed;
   }
 }
@@ -25,10 +25,10 @@ body {
     text-wrap: balance;
   }
 }
-
-/* .dfs {
-  background-color: #600027;
-  width: 344px;
-  height: 85px;
-  border-radius: 52px;
+/* 
+.dfs {
+  width: 100%;
+  height: 3px;
+  background-color: #fff;
+  margin: 30px 90px;
 } */
