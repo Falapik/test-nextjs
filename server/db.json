@@ -1,0 +1,25 @@
+{
+  "product": [
+    {
+      "id": 1,
+      "name": "COUTURE MAKEUP COLLECTION 2017",
+      "description": "Для людей, которые знают, что такое росскошь",
+      "price": "29 000 ₽",
+      "image": "./first.svg"
+    },
+    {
+      "id": 2,
+      "name": "Prisme Libre",
+      "description": "Для людей, которые знают, что такое росскошь",
+      "price": "12 000 ₽",
+      "image": "./first.svg"
+    },
+    {
+      "id": 3,
+      "name": "Le Rouge",
+      "description": "Для людей, которые знают, что такое росскошь",
+      "price": "19 000 ₽",
+      "image": "./first.svg"
+    }
+  ]
+}

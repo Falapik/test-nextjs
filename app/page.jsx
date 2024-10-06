@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Products from "../components/Products";
 
 export default function Home() {
   return (
@@ -62,68 +63,8 @@ export default function Home() {
                 </div>
               </div>
             </>
-            <div className="h-[806px] w-full bg-white flex">
-              <div className="mt-5 mb-0 ml-24 px-7 py-7">
-                <div className="text-black font-sans font-medium text-[40px] tracking-[-0.01em] w-[428px]">
-                  COUTURE MAKEUP COLLECTION 2017
-                </div>
-                <div className="font-medium text-[20px] tracking-[0.01em] text-black w-[271px]">
-                  Для людей, которые знают, что такое росскошь
-                </div>
-                <div className="">
-                  <Image src="./first.svg" width={496} height={496}></Image>
-                </div>
-                <div className="flex items-center justify-between w-[500px]">
-                  <div className="font-bold text-4xl tracking-tight text-black">
-                    29 000 ₽
-                  </div>
-                  <button className="bg-[#600027] rounded-[52px] w-[157px] h-[63px]  text-[25px] translate-x-[-20px]">
-                    Купить
-                  </button>
-                </div>
-              </div>
-              <div className="h-full w-[3px] bg-black"></div>
-              <div className="mt-5 mb-0 ml-12 px-7 py-7">
-                <div className="text-black font-sans font-medium text-[40px] tracking-[-0.01em] w-[428px]">
-                  COUTURE MAKEUP COLLECTION 2017
-                </div>
-                <div className="font-medium text-[20px] tracking-[0.01em] text-black w-[271px]">
-                  Для людей, которые знают, что такое росскошь
-                </div>
-                <div className="">
-                  <Image src="./first.svg" width={496} height={496}></Image>
-                </div>
-                <div className="flex items-center justify-between w-[500px]">
-                  <div className="font-bold text-4xl tracking-tight text-black">
-                    29 000 ₽
-                  </div>
-                  <button className="bg-[#600027] rounded-[52px] w-[157px] h-[63px]  text-[25px] translate-x-[-20px]">
-                    Купить
-                  </button>
-                </div>
-              </div>
-              <div className="h-full w-[3px] bg-black"></div>
-              <div className="mt-5 mb-0 ml-12 px-7 py-7">
-                <div className="text-black font-sans font-medium text-[40px] tracking-[-0.01em] w-[428px]">
-                  COUTURE MAKEUP COLLECTION 2017
-                </div>
-                <div className="font-medium text-[20px] tracking-[0.01em] text-black w-[271px]">
-                  Для людей, которые знают, что такое росскошь
-                </div>
-                <div className="">
-                  <Image src="./first.svg" width={496} height={496}></Image>
-                </div>
-                <div className="flex items-center justify-between w-[500px]">
-                  <div className="font-bold text-4xl tracking-tight text-black">
-                    29 000 ₽
-                  </div>
-                  <button className="bg-[#600027] rounded-[52px] w-[157px] h-[63px]  text-[25px] translate-x-[-20px]">
-                    Купить
-                  </button>
-                </div>
-              </div>
-            </div>
           </>
+          <Products />
           <div className="text-4xl m-[90px]">Свяжитесь с нами</div>
           <div className="h-[456px] w-full bg-[#600027] my-[-60px] flex ">
             <div className="w-full ml-[90px] mr-[90px]">
@@ -190,9 +131,24 @@ export default function Home() {
           </ol>
         </div>
       </>
-      <divc className="h-[3px] w-full">
+      <div className="h-[3px] w-full">
         <div className="bg-white h-[3px] ml-[90px] mr-[90px] mt-[30px]"></div>
-      </divc>
+      </div>
+      <div className="w-full ">
+        <div className=" flex justify-between items-start mt-[30px] ml-[90px] mr-[90px]">
+          <div className="text-2xl">2024 © GIVENCHY</div>
+          <div className="flex flex-col items-center  ">
+            <div className="text-2xl">8 (800) 555-35-35</div>
+            <div className="mb-[20px] text-2xl mt-[10px] ">Тех. поддержка</div>
+          </div>
+          <div className="flex ">
+            <Image src="./vk.svg" width={36} height={36} />
+            <Image src="./tg.svg" width={36} height={36} />
+            <Image src="./fb.svg" width={36} height={36} />
+            <Image src="./insta.svg" width={36} height={36} />
+          </div>
+        </div>
+      </div>
     </>
   );
 }
